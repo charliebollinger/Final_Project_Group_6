@@ -27,6 +27,8 @@ Military spending is one of the key areas each nation funds. It is a controversi
 
 ### Overall Layout
 
+The Shiny app will allow for several filters using several data sets. The app will initially display a map of the world with options to specify data by country or region. Each country will have a certain color meaning the higher they are ranked relative to other countries the darker shade of a color they are similar to the NYT COVID-19 map. Users will also be able to input different data sets so they could measure gross military spending or military spending as a proportion of GDP per capita, GNI per capita, population, or a similar statistic. Furthermore, users will be able to filter by year and then use gganimate to view change over time. Furthermore, the shiny app will include a table that reflects the results of the map and can be similarly filtered by country or region. Users can also generate scatter plots with linear smoothers comparing military spending to other variables such as Freedom House index scores or Global Happiness scores. Finally, users will have the option to conduct a statistical analysis of the scatter plots and other graphs which will generate key statistics to determine if the correlations are significant. 
+
 ### Data Analysis and Visualization with User Choices and Results 
 
 **Visualization:** 
