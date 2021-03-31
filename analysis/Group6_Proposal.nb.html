@@ -1737,21 +1737,54 @@ pre code {
 
 
 <!-- rnb-text-begin -->
-<p>This is an <a href="http://rmarkdown.rstudio.com">R Markdown</a> Notebook. When you execute code within the notebook, the results appear beneath the code.</p>
-<p>Try executing this chunk by clicking the <em>Run</em> button within the chunk or by placing your cursor inside it and pressing <em>Ctrl+Shift+Enter</em>.</p>
+<div id="app-title-and-names-of-your-group-members" class="section level1">
+<h1>App Title and Names of your group members</h1>
+<div id="determinants-of-military-spending" class="section level3">
+<h3>Determinants of Military Spending</h3>
+<p>by Ozan Cetin, Jen-Yu Huang, David Leshchiner, Charlie Bollinger</p>
+</div>
+</div>
+<div id="description-of-the-problem-to-be-analyzed-in-the-shiny-app" class="section level1">
+<h1>Description of the problem to be analyzed in the Shiny App</h1>
+<p>WILL ADD MORE Nation states’ military spending is our variable of interest. We would like to understand what demographic, economic and other factors influence military spending. We are going to investigate this question statistically and visually.</p>
+</div>
+<div id="proposed-data-sources" class="section level1">
+<h1>Proposed data sources</h1>
+<div id="sipri-for-military-spending-data" class="section level3">
+<h3>Sipri: For Military spending data</h3>
+</div>
+<div id="world-development-indicators-for-country-level-indicators-related-to-demographics-economy-public-health-etc." class="section level3">
+<h3>World Development Indicators: For country level indicators related to demographics, economy, public health etc.</h3>
+</div>
+<div id="freedom-house-index-state-level-democracy-scores" class="section level3">
+<h3>Freedom House Index: State-level democracy scores</h3>
+</div>
+<div id="polity-iv-state-level-democracy-scores" class="section level3">
+<h3>Polity IV: State-level democracy scores</h3>
+</div>
+</div>
+<div id="concept-for-the-shiny-app" class="section level1">
+<h1>Concept for the Shiny App</h1>
+<div id="overall-layout" class="section level3">
+<h3>Overall Layout</h3>
+</div>
+<div id="data-analysis-and-visualization-with-user-choices-and-results" class="section level3">
+<h3>Data Analysis and Visualization with User Choices and Results</h3>
+<p>Visualization: Bubble graphs animated year by year Density plots of countries Heat maps, Scatter Plots Scatter Plots with linear smoothers Map Plot</p>
+</div>
+</div>
+<div id="statistical-modeling-with-user-choices-and-results" class="section level1">
+<h1>Statistical Modeling with User Choices and Results</h1>
+</div>
+<div id="allocation-of-responsibilities-for-the-team" class="section level1">
+<h1>Allocation of Responsibilities for the team</h1>
+</div>
+<div id="project-stepsschedule" class="section level1">
+<h1>Project Steps/Schedule</h1>
 <!-- rnb-text-end -->
-<!-- rnb-chunk-begin -->
-<!-- rnb-source-begin eyJkYXRhIjoiYGBgclxucGxvdChjYXJzKVxuYGBgIn0= -->
-<pre class="r"><code>plot(cars)</code></pre>
-<!-- rnb-source-end -->
-<!-- rnb-chunk-end -->
-<!-- rnb-text-begin -->
-<p>Add a new chunk by clicking the <em>Insert Chunk</em> button on the toolbar or by pressing <em>Ctrl+Alt+I</em>.</p>
-<p>When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the <em>Preview</em> button or press <em>Ctrl+Shift+K</em> to preview the HTML file).</p>
-<p>The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike <em>Knit</em>, <em>Preview</em> does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.</p>
-<!-- rnb-text-end -->
+</div>
 
-<div id="rmd-source-code">LS0tDQp0aXRsZTogIkdyb3VwIDYgTWlsaXRhcnkgU3BlbmRpbmcgUHJvcG9zYWwiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQpUaGlzIGlzIGFuIFtSIE1hcmtkb3duXShodHRwOi8vcm1hcmtkb3duLnJzdHVkaW8uY29tKSBOb3RlYm9vay4gV2hlbiB5b3UgZXhlY3V0ZSBjb2RlIHdpdGhpbiB0aGUgbm90ZWJvb2ssIHRoZSByZXN1bHRzIGFwcGVhciBiZW5lYXRoIHRoZSBjb2RlLiANCg0KVHJ5IGV4ZWN1dGluZyB0aGlzIGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqUnVuKiBidXR0b24gd2l0aGluIHRoZSBjaHVuayBvciBieSBwbGFjaW5nIHlvdXIgY3Vyc29yIGluc2lkZSBpdCBhbmQgcHJlc3NpbmcgKkN0cmwrU2hpZnQrRW50ZXIqLiANCg0KYGBge3J9DQpwbG90KGNhcnMpDQpgYGANCg0KQWRkIGEgbmV3IGNodW5rIGJ5IGNsaWNraW5nIHRoZSAqSW5zZXJ0IENodW5rKiBidXR0b24gb24gdGhlIHRvb2xiYXIgb3IgYnkgcHJlc3NpbmcgKkN0cmwrQWx0K0kqLg0KDQpXaGVuIHlvdSBzYXZlIHRoZSBub3RlYm9vaywgYW4gSFRNTCBmaWxlIGNvbnRhaW5pbmcgdGhlIGNvZGUgYW5kIG91dHB1dCB3aWxsIGJlIHNhdmVkIGFsb25nc2lkZSBpdCAoY2xpY2sgdGhlICpQcmV2aWV3KiBidXR0b24gb3IgcHJlc3MgKkN0cmwrU2hpZnQrSyogdG8gcHJldmlldyB0aGUgSFRNTCBmaWxlKS4NCg0KVGhlIHByZXZpZXcgc2hvd3MgeW91IGEgcmVuZGVyZWQgSFRNTCBjb3B5IG9mIHRoZSBjb250ZW50cyBvZiB0aGUgZWRpdG9yLiBDb25zZXF1ZW50bHksIHVubGlrZSAqS25pdCosICpQcmV2aWV3KiBkb2VzIG5vdCBydW4gYW55IFIgY29kZSBjaHVua3MuIEluc3RlYWQsIHRoZSBvdXRwdXQgb2YgdGhlIGNodW5rIHdoZW4gaXQgd2FzIGxhc3QgcnVuIGluIHRoZSBlZGl0b3IgaXMgZGlzcGxheWVkLg0K</div>
+<div id="rmd-source-code">LS0tDQp0aXRsZTogIkdyb3VwIDYgTWlsaXRhcnkgU3BlbmRpbmcgUHJvcG9zYWwiDQpvdXRwdXQ6IGh0bWxfbm90ZWJvb2sNCi0tLQ0KDQojIEFwcCBUaXRsZSBhbmQgTmFtZXMgb2YgeW91ciBncm91cCBtZW1iZXJzDQoNCiMjIyBEZXRlcm1pbmFudHMgb2YgTWlsaXRhcnkgU3BlbmRpbmcNCg0KYnkgT3phbiBDZXRpbiwgSmVuLVl1IEh1YW5nLCBEYXZpZCBMZXNoY2hpbmVyLCBDaGFybGllIEJvbGxpbmdlcg0KDQojIERlc2NyaXB0aW9uIG9mIHRoZSBwcm9ibGVtIHRvIGJlIGFuYWx5emVkIGluIHRoZSBTaGlueSBBcHANCg0KV0lMTCBBREQgTU9SRSBOYXRpb24gc3RhdGVz4oCZIG1pbGl0YXJ5IHNwZW5kaW5nIGlzIG91ciB2YXJpYWJsZSBvZiBpbnRlcmVzdC4gV2Ugd291bGQgbGlrZSB0byB1bmRlcnN0YW5kIHdoYXQgZGVtb2dyYXBoaWMsIGVjb25vbWljIGFuZCBvdGhlciBmYWN0b3JzIGluZmx1ZW5jZSBtaWxpdGFyeSBzcGVuZGluZy4gV2UgYXJlIGdvaW5nIHRvIGludmVzdGlnYXRlIHRoaXMgcXVlc3Rpb24gc3RhdGlzdGljYWxseSBhbmQgdmlzdWFsbHkuDQoNCiMgUHJvcG9zZWQgZGF0YSBzb3VyY2VzIA0KDQojIyMgU2lwcmk6IEZvciBNaWxpdGFyeSBzcGVuZGluZyBkYXRhDQoNCiMjIyBXb3JsZCBEZXZlbG9wbWVudCBJbmRpY2F0b3JzOiBGb3IgY291bnRyeSBsZXZlbCBpbmRpY2F0b3JzIHJlbGF0ZWQgdG8gZGVtb2dyYXBoaWNzLCBlY29ub215LCBwdWJsaWMgaGVhbHRoIGV0Yy4gDQoNCiMjIyBGcmVlZG9tIEhvdXNlIEluZGV4OiBTdGF0ZS1sZXZlbCBkZW1vY3JhY3kgc2NvcmVzDQoNCiMjIyBQb2xpdHkgSVY6IFN0YXRlLWxldmVsIGRlbW9jcmFjeSBzY29yZXMNCg0KIyBDb25jZXB0IGZvciB0aGUgU2hpbnkgQXBwDQoNCiMjIyBPdmVyYWxsIExheW91dA0KDQojIyMgRGF0YSBBbmFseXNpcyBhbmQgVmlzdWFsaXphdGlvbiB3aXRoIFVzZXIgQ2hvaWNlcyBhbmQgUmVzdWx0cyANClZpc3VhbGl6YXRpb246IA0KQnViYmxlIGdyYXBocyBhbmltYXRlZCB5ZWFyIGJ5IHllYXINCkRlbnNpdHkgcGxvdHMgb2YgY291bnRyaWVzDQpIZWF0IG1hcHMsIFNjYXR0ZXIgUGxvdHMNClNjYXR0ZXIgUGxvdHMgd2l0aCBsaW5lYXIgc21vb3RoZXJzDQpNYXAgUGxvdA0KDQojIFN0YXRpc3RpY2FsIE1vZGVsaW5nIHdpdGggVXNlciBDaG9pY2VzIGFuZCBSZXN1bHRzIA0KDQojIEFsbG9jYXRpb24gb2YgUmVzcG9uc2liaWxpdGllcyBmb3IgdGhlIHRlYW0gDQoNCiMgUHJvamVjdCBTdGVwcy9TY2hlZHVsZQ0KDQo=</div>
 
 
 

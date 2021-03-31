@@ -3,16 +3,41 @@ title: "Group 6 Military Spending Proposal"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+# App Title and Names of your group members
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+### Determinants of Military Spending
 
-```{r}
-plot(cars)
-```
+by Ozan Cetin, Jen-Yu Huang, David Leshchiner, Charlie Bollinger
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+# Description of the problem to be analyzed in the Shiny App
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+WILL ADD MORE Nation states’ military spending is our variable of interest. We would like to understand what demographic, economic and other factors influence military spending. We are going to investigate this question statistically and visually.
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+# Proposed data sources 
+
+### Sipri: For Military spending data
+
+### World Development Indicators: For country level indicators related to demographics, economy, public health etc. 
+
+### Freedom House Index: State-level democracy scores
+
+### Polity IV: State-level democracy scores
+
+# Concept for the Shiny App
+
+### Overall Layout
+
+### Data Analysis and Visualization with User Choices and Results 
+Visualization: 
+Bubble graphs animated year by year
+Density plots of countries
+Heat maps, Scatter Plots
+Scatter Plots with linear smoothers
+Map Plot
+
+# Statistical Modeling with User Choices and Results 
+
+# Allocation of Responsibilities for the team 
+
+# Project Steps/Schedule
+
