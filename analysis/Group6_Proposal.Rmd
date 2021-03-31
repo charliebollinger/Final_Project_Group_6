@@ -15,25 +15,27 @@ WILL ADD MORE Nation states’ military spending is our variable of interest. We
 
 # Proposed data sources 
 
-### Sipri: For Military spending data
+**Sipri:** For Military spending data
 
-### World Development Indicators: For country level indicators related to demographics, economy, public health etc. 
+**World Development Indicators** For country level indicators related to demographics, economy, public health etc. 
 
-### Freedom House Index: State-level democracy scores
+**Freedom House Index** State-level democracy scores
 
-### Polity IV: State-level democracy scores
+**Polity IV** State-level democracy scores
 
 # Concept for the Shiny App
 
 ### Overall Layout
 
 ### Data Analysis and Visualization with User Choices and Results 
-Visualization: 
-Bubble graphs animated year by year
-Density plots of countries
-Heat maps, Scatter Plots
-Scatter Plots with linear smoothers
-Map Plot
+
+**Visualization:** 
+
+1. Bubble graphs animated year by year
+2. Density plots of continents based on a variable
+3. Heat maps of variable
+4. Scatter Plots/Scatter Plots of variables with linear smoothers
+5. Map Plots
 
 # Statistical Modeling with User Choices and Results 
 
