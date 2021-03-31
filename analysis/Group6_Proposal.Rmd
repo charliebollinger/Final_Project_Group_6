@@ -49,8 +49,8 @@ Descriptive Statistics for each*
 
 Regression Analysis & Diagnostics
 - Model Selection (e.g. partial f-tests)
-- Variable Selection (p value, AIC, VIF, BIC, Mallow's Cp, Stepwise Regression)
-- Correlation analysis
+- Variable Selection (p values, AIC, VIF, BIC, Mallow's Cp, Stepwise Regression)
+- Correlation analysis (adjusted R^2, R^2, p value)
 - Outliers (Cook's distance, leverage)
 
 
@@ -73,5 +73,5 @@ Regression Analysis & Diagnostics
 
 **May 2nd:** Practice Presentation & Finish all loose ends
 
-May 3: Presentation
+**May 3:** Presentation
 
